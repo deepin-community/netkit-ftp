@@ -1,0 +1,17 @@
+Source: netkit-ftp
+Section: net
+Priority: standard
+Maintainer: Mats Erik Andersson <mats.andersson@gisladisker.se>
+Uploaders: Alberto Gonzalez Iniesta <agi@inittab.org>
+Build-Depends: debhelper (>= 10~), dpkg-dev (>= 1.15.7), libreadline-dev, cmake
+Standards-Version: 3.9.8
+
+Package: ftp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, netbase
+Replaces: netstd
+Description: classical file transfer client
+ This is the user interface to the ARPANET standard File Transfer Protocol.
+ The program allows a user to transfer files to and from a remote network
+ site.
+

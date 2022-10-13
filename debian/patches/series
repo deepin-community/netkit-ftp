@@ -1,0 +1,13 @@
+010_patches_in_sarge.diff
+025_long_cmd_overflow.diff
+030_argv_handling.diff
+035_lintian_pedantic.diff
+040_ipv6_ftp_c.diff
+041_user_address_commands.diff
+043_tune_non_autologin.diff
+050_support_gnu_hurd.diff
+060_full_offset_range.diff
+070_hash_increments.diff
+use-cmake-as-buildsystem.patch
+use-cmake-as-buildsystem-debian-extras.patch
+fix-ftbfs-gcc10-extern.patch
